@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 import Link from 'next/link'
 import React from 'react'
 // import { AiOutlineHome , AiOutlineShoppingCart } from'react-icons/ai'

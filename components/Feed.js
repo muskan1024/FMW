@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Feed = () => {
     return (
         <div>
-            <div className='h-[10%]'>
+            <div>
                 <img src='images/fmw-banner.png' alt='banner' className='w-screen' />
             </div>
             
