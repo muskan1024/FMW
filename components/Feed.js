@@ -8,14 +8,14 @@ const Feed = () => {
                 <img src='images/fmw-banner.png' alt='banner' className='w-screen' />
             </div>
             
-            <div className='text-center text-2xl'>
+            {/* <div className='text-center text-2xl'>
                 <p>Top Products:</p>
                 <div className='border flex justify-evenly'>
                     <div><a href='/'><img className='h-64 ' src='images/cp1.jpg'/>Siyarams</a></div>
                     <div><a href='/'><img className='h-64  ' src='images/cp.2.jpg'/>products</a></div>
                     <div><a href='/'><img className='h-64 ' src='images/cp.3.jpg'/>products</a></div>
                 </div>
-            </div>
+            </div> */}
             <div className='text-center text-2xl'>
                 <p>Trusted Brands</p>
                 <div className='flex justify-left p-2'>
