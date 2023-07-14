@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='bg-zinc-800 text-white'>
             <div className='grid grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-5 justify-items-stretch p-10'>
                 <div className='grid grid-rows gap-3'>
-                    <img src='images/symbol-logo-1.png' className='h-24' />
+                    <img src='images/symbol-fc-logo.png' className='h-24' />
                     <p>Fashion That Leaves a Mark</p>
                     <div className='flex gap-3'>
                         <FiInstagram />
