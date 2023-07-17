@@ -16,13 +16,13 @@ function Navbar() {
                             <a href="/" className="lg:px-5 py-2 hover:text-blue-400 font-semibold">Home</a>
                         </li>
                         <li>
-                            <a href="#" className="lg:px-5 py-2 hover:text-blue-400 font-semibold">Shop</a>
+                            <a href="Shop" className="lg:px-5 py-2 hover:text-blue-400 font-semibold">Shop</a>
                         </li>
+                        {/* <li>
+                            <a href="#" className="lg:px-5 py-2 hover:text-blue-400 font-semibold">Collections</a>
+                        </li> */}
                         <li>
-                            <a href="#" className="lg:px-5 py-2 hover:text-blue-400 font-semibold">Contact</a>
-                        </li>
-                        <li>
-                            <a href="About" className="lg:px-5 py-2 hover:text-blue-400 font-semibold">About</a>
+                            <a href="About" className="lg:px-5 py-2 hover:text-blue-400 font-semibold">Contact</a>
                         </li>
                     </ul>
                 </nav>
