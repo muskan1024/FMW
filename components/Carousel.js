@@ -21,10 +21,10 @@ export default function Carousel({ children: slides, autoSlide = false, autoSlid
             {/* <p className=" font-bold text-3xl text-sky-900 p-2">Categories</p> */}
             <div className="flex  transition-transform ease-out duration-500" style={{transform: `translateX(-${curr *100}%)`}}>{slides}</div>
             <div className="absolute inset-0 flex items-center justify-between p-4 ">
-                <button onClick={prev} className="rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
+                <button onClick={prev} className="rounded-full shadow text-gray-800 hover:bg-white">
                     <BiChevronLeft size={40} />
                 </button>
-                <button onClick={next} className=" rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
+                <button onClick={next} className=" rounded-full shadow text-gray-800 hover:bg-white">
                     <BiChevronRight size={40} />
                 </button>
             </div>
